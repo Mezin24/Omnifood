@@ -1,2 +1,2 @@
 # Omnifood
-Landing page for meal delivery restaurant.
+Landing page for a meal delivery restaurant.
