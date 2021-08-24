@@ -119,6 +119,9 @@ or
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
 .align-center {
   align-items: center;
 }
