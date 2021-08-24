@@ -125,7 +125,7 @@
 /* HOW SECTION */
 /***************************/
 .section-how {
-  padding: 9.6rem 0 3.2rem 0;
+  padding: 9.6rem 0 9.6rem 0;
 }
 .how-number {
   font-size: 9.8rem;
@@ -335,4 +335,94 @@
 }
 .pricing ul {
   margin-bottom: 4.8rem;
+}
+.price-aside {
+  color: #686666;
+  font-size: 1.6rem;
+}
+.feature-icon {
+  color: #cf711f;
+  width: 3.2rem;
+  height: 3.2rem;
+  padding: 1.6rem;
+  margin-bottom: 3.2rem;
+  background-color: #fae5d3;
+  border-radius: 50%;
+}
+.feature-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+  color: #333;
+}
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  font-weight: 500;
+}
+/***************************/
+/* CTA SECTION */
+/***************************/
+.cta-section {
+  padding: 9.6rem 0;
+}
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: #e67e22;
+  border-radius: 0.9rem;
+  overflow: hidden;
+}
+.cta-text-box {
+  padding: 4.8rem;
+  color: #45260a;
+}
+.cta-text-box .header-secondary {
+  margin-bottom: 3.2rem;
+}
+.cta-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  color: inherit;
+  margin-bottom: 4.8rem;
+}
+.cta-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3.2rem;
+}
+.cta-form label {
+  display: block;
+  font-size: 1.8rem;
+  color: inherit;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+.cta-form input {
+  /* color: green; */
+}
+.cta-form input,
+.cta-form select {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  border-radius: 9px;
+  background-color: #fae5d3;
+  border: none;
+  font-family: inherit;
+  color: #45260a;
+}
+.cta-form input::placeholder {
+  font-family: inherit;
+  color: #999;
+}
+
+.cta-img-box {
+  background-image: linear-gradient(
+      rgba(230, 125, 34, 0.5),
+      rgba(230, 125, 34, 0.5)
+    ),
+    url(../img/eating.jpg);
+  background-size: cover;
+  background-position: center;
 }
