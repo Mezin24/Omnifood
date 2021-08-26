@@ -16,7 +16,7 @@
   list-style-type: none;
   display: flex;
   align-items: center;
-  gap: 2.4rem;
+  gap: 3.6rem;
   font-weight: 600;
 }
 .header-menu-item:link,
