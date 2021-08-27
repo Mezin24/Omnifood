@@ -46,7 +46,7 @@ Primary: #e67e22
 
 html {
   font-size: 62.5%;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 body {
   font-family: "Rubik", sans-serif;
