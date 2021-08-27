@@ -8,6 +8,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 .header-logo {
   height: 2.4rem;
@@ -43,6 +44,25 @@
 .nav-cta:active {
   background-color: #cf711f;
 }
+
+/***************************/
+/* MOBILE MENU*/
+/***************************/
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+.icon-mobile-nav {
+  width: 4.2rem;
+  height: 4.2rem;
+  color: #333;
+}
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
 /***************************/
 /* HERO SECTION */
 /***************************/
